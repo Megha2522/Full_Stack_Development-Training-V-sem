@@ -1,0 +1,31 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+table 
+{
+    background-color: rgb(12, 44, 44);
+    border-width: 10px;
+    border-style: groove;
+    border-color:rgb(58, 56, 57);
+    border-radius: 12px;
+    width:100%;
+}
+#heading
+{
+    background-color: rgb(41, 53, 29);
+    font-size: 60px;
+    text-align: center;
+    color: rgb(231 220 220);
+}
+#row1
+{
+    background-color: rgb(185, 16, 16);
+    text-align: center;
+}
+#row2
+{
+    background-color: rgb(39, 139, 39);
+    text-align: center;
+}
