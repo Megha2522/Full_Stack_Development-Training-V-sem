@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <!-- <h1>Hello</h1>
+    <a href="https://abes.ac.in">ABES Website</a><br>
+    <button onclick="changeHeader()">change header</button>
+
+    <p></p>
+    <p></p>
+    <button onclick="display()">Click Here</button><br><br> -->
+
+    <!-- <button onclick="addcontent()">Click me</button> -->
+
+    <!-- <button>Click me</button>
+    <script>
+        const button = document.querySelector('button');
+        button.addEventListener('click', () => {alert("hello")});
+    </script> -->
+
+    <p id="res"></p>
+    <!-- <button>Click here</button> -->
+    <button id="btn">Button</button>
+    <script>
+        // const button = document.querySelector('button');
+        // button.addEventListener('click', () => { document.getElementById('res').innerHTML = "Updated" });\
+
+        // document.getElementById('btn').onmouseover = () => {
+        //     document.querySelector('body').style.backgroundColor = 'red';
+        // };
+
+        const handleclick = () => {
+            document.getElementById('btn').style.translate = '30rem 0';
+        };
+        let btn = document.getElementById('btn');
+        btn.addEventListener('click', handleclick);
+
+
+    </script>
+</body>
+
+</html>

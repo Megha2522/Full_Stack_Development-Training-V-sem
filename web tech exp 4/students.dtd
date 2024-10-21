@@ -1,0 +1,6 @@
+<!ELEMENT Students (Student+)>
+<!ELEMENT Student (RollNo, Marks, TotalMarks, Percentage)>
+<!ELEMENT RollNo (#PCDATA)>
+<!ELEMENT Marks (#PCDATA)>
+<!ELEMENT TotalMarks (#PCDATA)>
+<!ELEMENT Percentage (#PCDATA)>
